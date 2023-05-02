@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.comtent {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+input[type="text"] {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+  
+button {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}
+div.palabra{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+div.palabra>button{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}

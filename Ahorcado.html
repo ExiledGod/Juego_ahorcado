@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/JuegoAhorcado.css">
+</head>
+<body>
+    <main>
+        <div class="comtent">
+            <section class="sec-inicio-del-juego">
+                <div class="iniciar-juego">
+                    <input type="button" id="btn-iniciar-juego" value="Iniciar Juego">
+                </div>
+                
+                <div class="agregar-palabra">
+                    <input type="button" id="btn-agregar-palabra" value="Añadir Palabra">
+                </div>
+            </section>
+            <section class="juego">
+                <canvas id="canvas" width="300" height="300" value="0"></canvas>
+                <div class="juegoInterfaz">
+                    <p>Adivina la palabra: <span id="word"></span></p>
+                    <p>Letras erradas: <span id="missedLetters"></span></p>
+                    <label for="guess">Adivina una letra:</label>
+                    <input type="text" id="guess" size="1" maxlength="1">
+                    <button id="guessButton">Adivinar</button>
+                </div>
+            </section>
+            
+        </div>
+    </main>
+</body>
+<script src="./js/JuegodelAhorcado.js"></script>
+</html>
